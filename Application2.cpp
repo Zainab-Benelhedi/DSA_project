@@ -27,17 +27,9 @@ int main()
     }
     return 0;
 }
-int 
-int pos(string ch, int c) {
-    int test = 0;
-    int i = 0;
-    while (i <= ch.size() && test == 0) {
-        if (ch[i] == to_string(c)) {
-            test = 1;
-        }
-        else
-            i++;
-    }
-    return test;
+int rayen () {
+    cout << "i am cool";
 }
+
+
 //this is a test
