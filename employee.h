@@ -1,14 +1,16 @@
+
+#pragma once
 #ifndef EMPLOYEE_H
 #define EMPLOYEE_H
+#include <iostream>
+struct employee {
+	int ID;
+	string Name;
+	string Last_name;
+	string Adress;
+	float Salary;
+	string Hire_date;
+	int Bank_branche;
 
-#include <string>
-using namespace std;
-
-struct Employee {
-    int id;
-    string name, lastName, hireDate, address;
-    double salary;
-    int branchCode; //Store the code of the branch or 1 for head office
 };
-
-#endif
+#endif  // !EMPLOYEE_H
