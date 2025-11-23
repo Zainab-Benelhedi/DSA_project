@@ -195,8 +195,18 @@ void displayEarliestRecruitedEmployee(Employee employees[], int count) {
     if (count == 0) {
         cerr << "No employees available.\n";
         return;
-	}
-	// TO BE COMPLETED
+    }
+
+    int earliestIndex = 0;
+
+    for (int i = 1; i < count; ++i) {
+        if (employees[i].hireDate < employees[earliestIndex].hireDate) {
+            earliestIndex = i;
+        }
+    }
+
+    cout << "Earliest recruited employee details:\n";
+    printEmployee(employees[earliestIndex]);
 }
 
 
@@ -228,6 +238,7 @@ bool isValidHireDate(const string& hiredate) {
 
     return true;
 }
+
 
 
 
