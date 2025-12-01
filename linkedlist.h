@@ -1,4 +1,3 @@
-#pragma once
 #ifndef LINKEDLIST_H
 #define LINKEDLIST_H
 #include <iostream>
@@ -34,4 +33,5 @@ struct stack {
 	transaction  top;
 	
 };
-#endif  // !LINKEDLIST_H
+
+#endif 
