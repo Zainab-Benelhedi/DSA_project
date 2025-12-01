@@ -1,4 +1,3 @@
-
 #ifndef LINKEDLISTMETH_H
 #define LINKEDLISTMETH_H
 #include <iostream>
@@ -42,4 +41,5 @@ void displayList(const doublylist& L);
 
 
 
-#endif // !LINKEDLISTMETH
+#endif
+
