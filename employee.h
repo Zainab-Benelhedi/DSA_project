@@ -1,16 +1,15 @@
-
-#pragma once
 #ifndef EMPLOYEE_H
 #define EMPLOYEE_H
-#include <iostream>
+#include <string>
 struct employee {
-	int ID;
-	string Name;
-	string Last_name;
-	string Adress;
-	float Salary;
-	string Hire_date;
-	int Bank_branche;
+	int id;
+	string name;
+	string lastName;
+	string hireDate;
+	string address;
+	double salary;
+	int branchCode;
 
 };
-#endif  // !EMPLOYEE_H
+
+#endif
