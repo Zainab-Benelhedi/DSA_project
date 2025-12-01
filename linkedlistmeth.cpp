@@ -1,4 +1,3 @@
-
 #include <iostream>
 #include <new>
 #include "linkedlistmeth.h"
@@ -224,4 +223,5 @@ loan getElementdoublylist(const doublylist& L, int pos) {
 	
 
 		
+
 
