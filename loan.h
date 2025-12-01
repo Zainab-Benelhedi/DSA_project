@@ -1,4 +1,3 @@
-#pragma once
 #ifndef LOAN_H
 #define LOAN_H
 #include <iostream>
@@ -15,4 +14,5 @@ struct loan {
 	string End_date;
 	string Status;
 };
-#endif // !LOAN_H
+
+#endif
