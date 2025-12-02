@@ -1,14 +1,14 @@
+
 #ifndef TRANSACTION_H
 #define TRANSACTION_H
 #include <iostream>
-#include "linkedlistmeth.h"
 using namespace std;
-struct transaction  {
+
+struct transaction {
 	int Transaction_ID;
 	int Account_Number;
 	string Type;
 	int Amount;
 	string Date;
 };
-
-#endif
+#endif // !TRANSA

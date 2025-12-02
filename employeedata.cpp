@@ -1,5 +1,5 @@
 #include "employeedata.h"
-
+#include <string>
 Employee employees[100] = {
     {101, "Aicha", "Masmoudi", "2023-01-15", "12 Rue des Pins", 5000.0, 1},
     {102, "Bassem", "Sassi", "2022-06-10", "45 Rue Jasmins", 6000.0, 2},
@@ -7,5 +7,4 @@ Employee employees[100] = {
     {104, "Dina", "Benelhedi", "2020-11-05", "32 Rue des Glycines", 6200.0, 3},
     {105, "Emna", "Darej", "2023-03-01", "65 Rue de Palestine", 5800.0, 2}
 };
-
 int count = 5;

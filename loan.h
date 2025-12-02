@@ -1,7 +1,7 @@
+
 #ifndef LOAN_H
 #define LOAN_H
 #include <iostream>
-#include "linkedlistmeth.h"
 using namespace std;
 struct loan {
 	int loan_ID;
@@ -14,5 +14,4 @@ struct loan {
 	string End_date;
 	string Status;
 };
-
-#endif
+#endif 

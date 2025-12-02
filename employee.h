@@ -1,7 +1,9 @@
+
 #ifndef EMPLOYEE_H
 #define EMPLOYEE_H
-#include <string>
-struct employee {
+#include <iostream>
+using namespace std;
+struct Employee {
 	int id;
 	string name;
 	string lastName;
@@ -11,5 +13,4 @@ struct employee {
 	int branchCode;
 
 };
-
-#endif
+#endif  // !EMPLOYEE_H
