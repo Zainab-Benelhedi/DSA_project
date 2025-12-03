@@ -15,6 +15,13 @@ bool isValidName(const string& name);
 bool isValidHireDate(const string& hiredate);
 int findEmployeeIndex(Employee employees[], int count, int id);
 
+void DisplayemployeesSortedByLastName(Employee employees[], int count);
+void DisplayEmployeesByBranch(Employee employees[], int count);
+void displayCustomerLoan(const Account& acc);
+void ChangeLoanStatus(Account& acc);
+void extractCompletedLoans(doublylist* source, singlylist* completed_loans) ;
+
 #endif 
+
 
 
