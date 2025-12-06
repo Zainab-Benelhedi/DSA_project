@@ -243,3 +243,5 @@ void extractCompletedLoans(doublylist* source, singlylist* completed_loans) {
         }
     }
 }
+
+
